@@ -9,8 +9,6 @@ export const Tabs = ({ tabs, activeTabId, onTabSelected }) => {
 
   return (
     <>
-      <h1 className="title">Selected tab is {myTab.title}</h1>
-
       <div data-cy="TabsComponent">
         <div className="tabs is-boxed">
           <ul>
